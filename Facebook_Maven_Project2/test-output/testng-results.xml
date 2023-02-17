@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-14T11:17:01Z" name="SuiteFacebook" finished-at="2023-02-14T11:17:40Z" duration-ms="39232">
+    <groups>
+    </groups>
+    <test started-at="2023-02-14T11:17:01Z" name="Chrome" finished-at="2023-02-14T11:17:19Z" duration-ms="17823">
+      <class name="testng.TestNgClass">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:01Z" name="openBrowser" finished-at="2023-02-14T11:17:02Z" duration-ms="1038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:02Z" name="openBrowser" finished-at="2023-02-14T11:17:03Z" duration-ms="834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:03Z" name="openBrowser" finished-at="2023-02-14T11:17:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:03Z" name="openSignUpPage" finished-at="2023-02-14T11:17:05Z" duration-ms="1557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyTermsLink()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:05Z" name="verifyTermsLink" finished-at="2023-02-14T11:17:06Z" duration-ms="1826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermsLink -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:06Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:06Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:06Z" name="openSignUpPage" finished-at="2023-02-14T11:17:08Z" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifycookiespolicylink()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:08Z" name="verifycookiespolicylink" finished-at="2023-02-14T11:17:15Z" duration-ms="7256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycookiespolicylink -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:15Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:15Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:15Z" name="openSignUpPage" finished-at="2023-02-14T11:17:16Z" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyprivacypolicylink()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:16Z" name="verifyprivacypolicylink" finished-at="2023-02-14T11:17:18Z" duration-ms="2321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyprivacypolicylink -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:18Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:18Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng.TestNgClass@350aac89]" started-at="2023-02-14T11:17:18Z" name="afterClass" finished-at="2023-02-14T11:17:18Z" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.TestNgClass -->
+      <class name="testng.TestNgFormClass">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:03Z" name="openBrowser" finished-at="2023-02-14T11:17:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:03Z" name="openSignUpPage" finished-at="2023-02-14T11:17:05Z" duration-ms="1558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyFirstName()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:05Z" name="verifyFirstName" finished-at="2023-02-14T11:17:06Z" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstName -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:06Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:06Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:06Z" name="openSignUpPage" finished-at="2023-02-14T11:17:06Z" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyLastName()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:06Z" name="verifyLastName" finished-at="2023-02-14T11:17:08Z" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLastName -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:08Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:08Z" name="openSignUpPage" finished-at="2023-02-14T11:17:08Z" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyMoblieNo()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:08Z" name="verifyMoblieNo" finished-at="2023-02-14T11:17:09Z" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMoblieNo -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:09Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:09Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:09Z" name="openSignUpPage" finished-at="2023-02-14T11:17:10Z" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifydaydropdown()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:10Z" name="verifydaydropdown" finished-at="2023-02-14T11:17:11Z" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydaydropdown -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:11Z" name="openSignUpPage" finished-at="2023-02-14T11:17:13Z" duration-ms="2673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:11Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method signature="verifymaleRadioButton()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:13Z" name="verifymaleRadioButton" finished-at="2023-02-14T11:17:14Z" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymaleRadioButton -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:14Z" name="openSignUpPage" finished-at="2023-02-14T11:17:15Z" duration-ms="1360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:14Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:14Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method signature="verifymonthdropdown()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:15Z" name="verifymonthdropdown" finished-at="2023-02-14T11:17:16Z" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymonthdropdown -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:16Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:16Z" name="openSignUpPage" finished-at="2023-02-14T11:17:17Z" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifypassword()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:17Z" name="verifypassword" finished-at="2023-02-14T11:17:17Z" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypassword -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:17Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:17Z" name="openSignUpPage" finished-at="2023-02-14T11:17:18Z" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyyeardropdown()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:18Z" name="verifyyeardropdown" finished-at="2023-02-14T11:17:19Z" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyyeardropdown -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:19Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng.TestNgFormClass@75437611]" started-at="2023-02-14T11:17:19Z" name="afterClass" finished-at="2023-02-14T11:17:19Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.TestNgFormClass -->
+    </test> <!-- Chrome -->
+    <test started-at="2023-02-14T11:17:19Z" name="Firefox" finished-at="2023-02-14T11:17:40Z" duration-ms="21328">
+      <class name="testng.TestNgClass">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:19Z" name="openBrowser" finished-at="2023-02-14T11:17:21Z" duration-ms="1982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:21Z" name="openBrowser" finished-at="2023-02-14T11:17:23Z" duration-ms="2159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:23Z" name="openBrowser" finished-at="2023-02-14T11:17:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:23Z" name="openSignUpPage" finished-at="2023-02-14T11:17:27Z" duration-ms="3597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyTermsLink()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:27Z" name="verifyTermsLink" finished-at="2023-02-14T11:17:28Z" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermsLink -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:28Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:28Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:28Z" name="openSignUpPage" finished-at="2023-02-14T11:17:30Z" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifycookiespolicylink()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:30Z" name="verifycookiespolicylink" finished-at="2023-02-14T11:17:32Z" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycookiespolicylink -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:32Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:32Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:32Z" name="openSignUpPage" finished-at="2023-02-14T11:17:33Z" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyprivacypolicylink()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:33Z" name="verifyprivacypolicylink" finished-at="2023-02-14T11:17:34Z" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyprivacypolicylink -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:34Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:34Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng.TestNgClass@5386659f]" started-at="2023-02-14T11:17:34Z" name="afterClass" finished-at="2023-02-14T11:17:35Z" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.TestNgClass -->
+      <class name="testng.TestNgFormClass">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:23Z" name="openBrowser" finished-at="2023-02-14T11:17:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:23Z" name="openSignUpPage" finished-at="2023-02-14T11:17:27Z" duration-ms="3388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyFirstName()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:27Z" name="verifyFirstName" finished-at="2023-02-14T11:17:28Z" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFirstName -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:28Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:28Z" name="openSignUpPage" finished-at="2023-02-14T11:17:29Z" duration-ms="1766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyLastName()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:29Z" name="verifyLastName" finished-at="2023-02-14T11:17:31Z" duration-ms="1657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLastName -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:31Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:31Z" name="openSignUpPage" finished-at="2023-02-14T11:17:33Z" duration-ms="1454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyMoblieNo()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:33Z" name="verifyMoblieNo" finished-at="2023-02-14T11:17:33Z" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMoblieNo -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:33Z" name="openSignUpPage" finished-at="2023-02-14T11:17:34Z" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:33Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:33Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method signature="verifydaydropdown()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:34Z" name="verifydaydropdown" finished-at="2023-02-14T11:17:34Z" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydaydropdown -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:34Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:34Z" name="openSignUpPage" finished-at="2023-02-14T11:17:35Z" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifymaleRadioButton()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:35Z" name="verifymaleRadioButton" finished-at="2023-02-14T11:17:36Z" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymaleRadioButton -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:36Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:36Z" name="openSignUpPage" finished-at="2023-02-14T11:17:37Z" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifymonthdropdown()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:37Z" name="verifymonthdropdown" finished-at="2023-02-14T11:17:38Z" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymonthdropdown -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:38Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:38Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:38Z" name="openSignUpPage" finished-at="2023-02-14T11:17:39Z" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifypassword()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:39Z" name="verifypassword" finished-at="2023-02-14T11:17:39Z" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypassword -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:39Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="openSignUpPage()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:39Z" name="openSignUpPage" finished-at="2023-02-14T11:17:40Z" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignUpPage -->
+        <test-method signature="verifyyeardropdown()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:40Z" name="verifyyeardropdown" finished-at="2023-02-14T11:17:40Z" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyyeardropdown -->
+        <test-method is-config="true" signature="closedCurrentTab()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:40Z" name="closedCurrentTab" finished-at="2023-02-14T11:17:40Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedCurrentTab -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng.TestNgFormClass@710c2b53]" started-at="2023-02-14T11:17:40Z" name="afterClass" finished-at="2023-02-14T11:17:40Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.TestNgFormClass -->
+    </test> <!-- Firefox -->
+  </suite> <!-- SuiteFacebook -->
+</testng-results>

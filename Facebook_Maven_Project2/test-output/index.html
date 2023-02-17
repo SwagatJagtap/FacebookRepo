@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SuiteFacebook" class="navigator-link">
+              <span class="suite-name border-passed">SuiteFacebook</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SuiteFacebook" class="navigator-link ">
+                    <span>C:\Users\hp\eclipse-workspace\Facebook_Maven_Project2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SuiteFacebook" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SuiteFacebook" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SuiteFacebook" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SuiteFacebook" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SuiteFacebook" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SuiteFacebook" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteFacebook" class="hide-methods passed suite-SuiteFacebook"> (hide)</a> <!-- hide-methods passed suite-SuiteFacebook -->
+                      <a href="#" panel-name="suite-SuiteFacebook" class="show-methods passed suite-SuiteFacebook"> (show)</a> <!-- show-methods passed suite-SuiteFacebook -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteFacebook">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifyFirstName">verifyFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifyFirstName">verifyFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifyLastName">verifyLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifyLastName">verifyLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifyMoblieNo">verifyMoblieNo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifyMoblieNo">verifyMoblieNo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgClass" class="method navigator-link" hash-for-method="verifyTermsLink">verifyTermsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgClass" class="method navigator-link" hash-for-method="verifyTermsLink">verifyTermsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgClass" class="method navigator-link" hash-for-method="verifycookiespolicylink">verifycookiespolicylink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgClass" class="method navigator-link" hash-for-method="verifycookiespolicylink">verifycookiespolicylink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifydaydropdown">verifydaydropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifydaydropdown">verifydaydropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifymaleRadioButton">verifymaleRadioButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifymaleRadioButton">verifymaleRadioButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifymonthdropdown">verifymonthdropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifymonthdropdown">verifymonthdropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifypassword">verifypassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifypassword">verifypassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgClass" class="method navigator-link" hash-for-method="verifyprivacypolicylink">verifyprivacypolicylink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgClass" class="method navigator-link" hash-for-method="verifyprivacypolicylink">verifyprivacypolicylink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifyyeardropdown">verifyyeardropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteFacebook" title="testng.TestNgFormClass" class="method navigator-link" hash-for-method="verifyyeardropdown">verifyyeardropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteFacebook -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteFacebook" class="panel SuiteFacebook">
+          <div class="suite-SuiteFacebook-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testng.TestNgFormClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFirstName">
+                  </a> <!-- verifyFirstName -->
+                  <span class="method-name">verifyFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFirstName">
+                  </a> <!-- verifyFirstName -->
+                  <span class="method-name">verifyFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLastName">
+                  </a> <!-- verifyLastName -->
+                  <span class="method-name">verifyLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLastName">
+                  </a> <!-- verifyLastName -->
+                  <span class="method-name">verifyLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMoblieNo">
+                  </a> <!-- verifyMoblieNo -->
+                  <span class="method-name">verifyMoblieNo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMoblieNo">
+                  </a> <!-- verifyMoblieNo -->
+                  <span class="method-name">verifyMoblieNo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifydaydropdown">
+                  </a> <!-- verifydaydropdown -->
+                  <span class="method-name">verifydaydropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifydaydropdown">
+                  </a> <!-- verifydaydropdown -->
+                  <span class="method-name">verifydaydropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifymaleRadioButton">
+                  </a> <!-- verifymaleRadioButton -->
+                  <span class="method-name">verifymaleRadioButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifymaleRadioButton">
+                  </a> <!-- verifymaleRadioButton -->
+                  <span class="method-name">verifymaleRadioButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifymonthdropdown">
+                  </a> <!-- verifymonthdropdown -->
+                  <span class="method-name">verifymonthdropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifymonthdropdown">
+                  </a> <!-- verifymonthdropdown -->
+                  <span class="method-name">verifymonthdropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifypassword">
+                  </a> <!-- verifypassword -->
+                  <span class="method-name">verifypassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifypassword">
+                  </a> <!-- verifypassword -->
+                  <span class="method-name">verifypassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyyeardropdown">
+                  </a> <!-- verifyyeardropdown -->
+                  <span class="method-name">verifyyeardropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyyeardropdown">
+                  </a> <!-- verifyyeardropdown -->
+                  <span class="method-name">verifyyeardropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteFacebook-class-passed -->
+          <div class="suite-SuiteFacebook-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testng.TestNgClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTermsLink">
+                  </a> <!-- verifyTermsLink -->
+                  <span class="method-name">verifyTermsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTermsLink">
+                  </a> <!-- verifyTermsLink -->
+                  <span class="method-name">verifyTermsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycookiespolicylink">
+                  </a> <!-- verifycookiespolicylink -->
+                  <span class="method-name">verifycookiespolicylink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycookiespolicylink">
+                  </a> <!-- verifycookiespolicylink -->
+                  <span class="method-name">verifycookiespolicylink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyprivacypolicylink">
+                  </a> <!-- verifyprivacypolicylink -->
+                  <span class="method-name">verifyprivacypolicylink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyprivacypolicylink">
+                  </a> <!-- verifyprivacypolicylink -->
+                  <span class="method-name">verifyprivacypolicylink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteFacebook-class-passed -->
+        </div> <!-- panel SuiteFacebook -->
+        <div panel-name="test-xml-SuiteFacebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hp\eclipse-workspace\Facebook_Maven_Project2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;SuiteFacebook&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testng.TestNgFormClass&quot;/&gt;
+      &lt;class name=&quot;testng.TestNgClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testng.TestNgFormClass&quot;/&gt;
+      &lt;class name=&quot;testng.TestNgClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox --&gt;
+&lt;/suite&gt; &lt;!-- SuiteFacebook --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteFacebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteFacebook</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteFacebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteFacebook</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteFacebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteFacebook</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteFacebook');
+function tableData_SuiteFacebook() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifycookiespolicylink')
+data.setCell(0, 2, 'testng.TestNgClass')
+data.setCell(0, 3, 7256);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyprivacypolicylink')
+data.setCell(1, 2, 'testng.TestNgClass')
+data.setCell(1, 3, 2321);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyTermsLink')
+data.setCell(2, 2, 'testng.TestNgClass')
+data.setCell(2, 3, 1826);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifycookiespolicylink')
+data.setCell(3, 2, 'testng.TestNgClass')
+data.setCell(3, 3, 1785);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyTermsLink')
+data.setCell(4, 2, 'testng.TestNgClass')
+data.setCell(4, 3, 1671);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLastName')
+data.setCell(5, 2, 'testng.TestNgFormClass')
+data.setCell(5, 3, 1657);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyFirstName')
+data.setCell(6, 2, 'testng.TestNgFormClass')
+data.setCell(6, 3, 1195);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLastName')
+data.setCell(7, 2, 'testng.TestNgFormClass')
+data.setCell(7, 3, 1144);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyFirstName')
+data.setCell(8, 2, 'testng.TestNgFormClass')
+data.setCell(8, 3, 1030);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifydaydropdown')
+data.setCell(9, 2, 'testng.TestNgFormClass')
+data.setCell(9, 3, 904);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyyeardropdown')
+data.setCell(10, 2, 'testng.TestNgFormClass')
+data.setCell(10, 3, 790);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifymaleRadioButton')
+data.setCell(11, 2, 'testng.TestNgFormClass')
+data.setCell(11, 3, 743);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifymaleRadioButton')
+data.setCell(12, 2, 'testng.TestNgFormClass')
+data.setCell(12, 3, 652);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifydaydropdown')
+data.setCell(13, 2, 'testng.TestNgFormClass')
+data.setCell(13, 3, 633);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyyeardropdown')
+data.setCell(14, 2, 'testng.TestNgFormClass')
+data.setCell(14, 3, 582);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifymonthdropdown')
+data.setCell(15, 2, 'testng.TestNgFormClass')
+data.setCell(15, 3, 553);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyprivacypolicylink')
+data.setCell(16, 2, 'testng.TestNgClass')
+data.setCell(16, 3, 553);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyMoblieNo')
+data.setCell(17, 2, 'testng.TestNgFormClass')
+data.setCell(17, 3, 546);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifymonthdropdown')
+data.setCell(18, 2, 'testng.TestNgFormClass')
+data.setCell(18, 3, 539);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifypassword')
+data.setCell(19, 2, 'testng.TestNgFormClass')
+data.setCell(19, 3, 481);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyMoblieNo')
+data.setCell(20, 2, 'testng.TestNgFormClass')
+data.setCell(20, 3, 270);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifypassword')
+data.setCell(21, 2, 'testng.TestNgFormClass')
+data.setCell(21, 3, 207);
+window.suiteTableData['SuiteFacebook']= { tableData: data, tableDiv: 'times-div-SuiteFacebook'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-SuiteFacebook">
+              </div> <!-- times-div-SuiteFacebook -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteFacebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteFacebook</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteFacebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteFacebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser(Chrome)</span>
+                <span class="method-start">1039 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1885 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">1886 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">1895 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">1895 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTermsLink</span>
+                <span class="method-start">3452 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyFirstName</span>
+                <span class="method-start">3453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">4483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">4484 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">5278 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLastName</span>
+                <span class="method-start">5326 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">5355 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">6472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">6473 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifycookiespolicylink</span>
+                <span class="method-start">6731 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyMoblieNo</span>
+                <span class="method-start">7246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">7795 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">7796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifydaydropdown</span>
+                <span class="method-start">8636 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">9543 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">9543 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifymaleRadioButton</span>
+                <span class="method-start">12216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">12870 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">12870 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">13989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">14075 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifymonthdropdown</span>
+                <span class="method-start">14230 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyprivacypolicylink</span>
+                <span class="method-start">14616 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">14771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">14771 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifypassword</span>
+                <span class="method-start">15844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">16326 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">16326 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">16939 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">17016 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyyeardropdown</span>
+                <span class="method-start">17027 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">17818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">17818 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser(Firefox)</span>
+                <span class="method-start">17902 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser(Firefox)</span>
+                <span class="method-start">19884 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">22044 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">22044 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">22045 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">22045 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyFirstName</span>
+                <span class="method-start">25433 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTermsLink</span>
+                <span class="method-start">25642 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">26628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">26629 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">27314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">27364 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLastName</span>
+                <span class="method-start">28396 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifycookiespolicylink</span>
+                <span class="method-start">28829 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">30054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">30055 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">30616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">30710 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyMoblieNo</span>
+                <span class="method-start">31509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">31780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">31780 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyprivacypolicylink</span>
+                <span class="method-start">31927 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">32481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">32568 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testng.TestNgFormClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifydaydropdown</span>
+                <span class="method-start">32677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">33311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">33313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifymaleRadioButton</span>
+                <span class="method-start">34217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">34962 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">34963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifymonthdropdown</span>
+                <span class="method-start">35866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">36420 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">36421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifypassword</span>
+                <span class="method-start">37463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">37671 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openSignUpPage</span>
+                <span class="method-start">37672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyyeardropdown</span>
+                <span class="method-start">38644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closedCurrentTab</span>
+                <span class="method-start">39227 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">39228 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [SuiteFacebook]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Firefox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testng.TestNgClass">
+        <methods>
+          <include name="verifycookiespolicylink"/>
+          <include name="verifyprivacypolicylink"/>
+          <include name="verifyTermsLink"/>
+          <include name="openSignUpPage"/>
+          <include name="openBrowser"/>
+          <include name="closedCurrentTab"/>
+          <include name="openBrowser"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testng.TestNgClass -->
+      <class name="testng.TestNgFormClass">
+        <methods>
+          <include name="verifyFirstName"/>
+          <include name="afterClass"/>
+          <include name="openBrowser"/>
+          <include name="closedCurrentTab"/>
+          <include name="openBrowser"/>
+          <include name="openSignUpPage"/>
+        </methods>
+      </class> <!-- testng.TestNgFormClass -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [SuiteFacebook] -->
